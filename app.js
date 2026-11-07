@@ -164,7 +164,7 @@
       '<h2>Data access</h2><p>Browse the results, download analysis tables or look up field definitions.</p><div class="link-list">'+
       '<a href="'+url('results',{disease:d.id})+'">Explore results ↗</a>'+
       '<a href="'+url('downloads',{disease:d.id})+'">Download data ↓</a>'+
-      '<a href="DATA_DICTIONARY.md">Field guide ↗</a></div></div>';
+      '<a href="https://github.com/CcL0412/NeuroPsychAtlas/blob/main/DATA_DICTIONARY.md" target="_blank">Field guide ↗</a></div></div>';
     document.getElementById('disease-select').onchange=e=>location.hash=url('about',{disease:e.target.value});
   }
 
